@@ -1,0 +1,89 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+}
+
+.navbar {
+    padding: 15px 30px;
+    width: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    width: 100%;
+}
+
+.currency-bitcoin {
+    display: flex;
+}
+
+.currency-bitcoin img {
+    margin: auto;
+}
+
+.currency {
+    display: flex;
+}
+
+.child-currency {
+    margin: 0px 10px;
+}
+
+.child-currency .currency-bitcoin p {
+    margin: auto;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0px 12.5px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    color: #626262;
+    text-decoration: none;
+}
+
+.nav-link-settlement-price {
+    border: 10px;
+    border-color: #216EFB;
+    border-radius: 10;
+}
+
+.nav-item .nav-icon {
+    border-style: solid;
+    border-color: #626262;
+    border-right: 10px;
+}
+
+.menu-left-link {
+    background-color: #F2F2F2;
+    width: 261px;
+    height: 100vh;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.menu-left-link ul {
+    list-style-type: none;
+}
+
+.menu-left-link ul li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 6px;
+}
+
+.menu-left-link ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 15px;
+}
+
+.menu-left-link ul li img {
+    float: right;
+}
