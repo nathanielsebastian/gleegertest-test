@@ -123,3 +123,15 @@ body {
 .account-status-left {
     width: 50%;
 }
+
+.login-status {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.login-status div h1 {
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: #d5d5d5;
+}
