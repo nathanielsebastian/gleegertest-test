@@ -61,9 +61,13 @@ body {
     border-right: 10px;
 }
 
+.bottom-content {
+    display: flex;
+}
+
 .menu-left-link {
     background-color: #F2F2F2;
-    width: 261px;
+    width: 25%;
     height: 100vh;
     padding-right: 30px;
     padding-top: 20px;
@@ -88,4 +92,34 @@ body {
 
 .menu-left-link ul li img {
     float: right;
+}
+
+.content-center {
+    padding: 43px 28px 50px 77px;
+    height: 100%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.content-center div {
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.account-status {
+    background-color: #216EFB;
+    border-radius: 6px;
+    padding: 19px 21px;
+    color: white;
+    font-size: 15px;
+}
+
+.account-status-right {
+    width: 50%;
+}
+
+.account-status-left {
+    width: 50%;
 }
