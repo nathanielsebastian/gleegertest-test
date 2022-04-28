@@ -1,0 +1,217 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+    /* background-color: black; */
+}
+
+.navbar-brand img {
+    margin-top: 10px;
+}
+
+.currency {
+    display: flex;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.currency p {
+    display: inline;
+}
+
+.child-currency {
+    margin: 0px 10px;
+}
+
+.child-currency .currency-bitcoin p {
+    margin: auto;
+}
+
+.child-currency .currency-number-big {
+    font-size: 15pt;
+    font-weight: 100;
+}
+
+.child-currency .currency-number-big .currency-number-small {
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+.vl {
+    border-left: 2px solid #f2f2f2;
+    height: auto;
+}
+
+.vl2 {
+    border-right: 2px solid #f2f2f2;
+    height: 20px;
+}
+
+.currency-bitcoin {
+    display: flex;
+    margin-right: auto;
+}
+
+.currency-bitcoin img {
+    margin: auto;
+    margin-right: -3px;
+}
+
+.currency-ethereum {
+    display: flex;
+}
+
+.child-currency .currency-ethereum p {
+    margin: auto;
+}
+
+.currency-ethereum img {
+    margin: auto;
+    margin-right: 5px;
+}
+
+.nav-link {
+    color: #626262;
+}
+
+.bottom-content {
+    display: flex;
+}
+
+.menu-left-link {
+    background-color: #F2F2F2;
+    width: 261px;
+    height: 100vh;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.menu-left-link ul {
+    list-style-type: none;
+}
+
+.menu-left-link ul li {
+    background-color: #ffff;
+    padding: 10px;
+    margin: 10px -7px;
+    border-radius: 10px;
+    width: 211px;
+    height: 40px;
+}
+
+.menu-left-link ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 15px;
+}
+
+.menu-left-link ul li img {
+    float: right;
+    margin-top: 4px;
+}
+
+.account-status {
+    background-color: #216EFB;
+    border-radius: 6px;
+    margin: 50px 0px;
+    height: 206px;
+    padding: 19px 21px;
+    color: white;
+    font-size: 15px;
+}
+
+.account-status-left {
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.account-status-right {
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.status-login {}
+
+.status-login .line1 {
+    display: flex;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.status-login .line1 p {
+    margin: auto 0px;
+    text-align: right;
+    width: 90%;
+    color: #216EFB;
+}
+
+.status-login .line1 h1 {
+    font-size: 25px;
+    width: 45%;
+}
+
+.status-login .line2 {
+    padding-top: 10px;
+    /* padding-bottom: 70px; */
+}
+
+.status-login .line2.product p {
+    margin: 0px !important;
+}
+
+.status-login-left {
+    width: 100%;
+}
+
+.line3,
+.exp {
+    font-size: 10px;
+    color: #b5b5b5;
+}
+
+.status-login .line2.product {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.status-login .status-login-left .product .product-left {
+    width: 45%;
+    float: left;
+}
+
+.status-login .product-right {
+    width: 20%;
+    float: right;
+    display: flex;
+}
+
+.status-login .line2.product .product-right p {
+    text-align: right;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.bordered {
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.margin-big {
+    margin-bottom: 70px;
+}
+
+.table-right {}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 597px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
