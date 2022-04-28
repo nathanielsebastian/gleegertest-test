@@ -1,175 +1,308 @@
-<!DOCTYPE html>
-<html lang="”en”">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="”UTF-8″" />
-    <meta name="”viewport”" content="”width"="device-width," initial-scale="1.0″" />
-    <meta http-equiv="”X-UA-Compatible”" content="”ie"="edge”" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- Local CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/style2.css">
 
-    <!-- Bootstap CSS -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-
-    <!-- Font Google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap" rel="stylesheet">
 
-    <!-- Logo Title Bar -->
-    <link rel="icon" href="assets/SparrowX-horizontal-RGB_gradient-FC-New-1.png" type="image/x-icon">
-
-    <!-- Title Bar -->
     <title>Account</title>
-
 </head>
 
 <body>
-    <!-- Navbar -->
+    <!-- NAVBAR -->
     <div class="container-fluid">
-        <nav class="navbar shadow-sm bg-white rounded">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar shadow-sm">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/SparrowX-horizontal-RGB_gradient-FC-New-1.png" width="140" height="35">
+                        </a>
+                        <div class="currency">
+                            <div class="child-currency">
+                                <div class="currency-bitcoin">
+                                    <img src="assets/Group 14253.png" alt="" width="16" height="16">
+                                    <p>&nbsp;<b>Bitcoin</b></p>
+                                </div>
+                                <div class="currency-number-big">
+                                    <p style="margin: -5px;">88,888</p>
+                                    <p style="font-size: 10px; display: inline;">.88</p>
+                                </div>
+                            </div>
 
-            <a class="navbar-brand" href="Index.html">
-                <img src="/assets/SparrowX-horizontal-RGB_gradient-FC-New-1.png" alt="" width="140" height="35">
-            </a>
-            <div class="currency">
-                <div class="child-currency">
-                    <div class="currency-bitcoin">
-                        <img src="\assets/Path 11964.png" alt="" width="16" height="16">
-                        <p>Bitcoin</p>
-                    </div>
-                    <p>88,888.88</p>
-                </div>
-                <div class="child-currency">
-                    <div class="currency-bitcoin">
-                        <img src="/Testing//assets/Path 11964.png" alt="" width="16" height="16">
-                        <p>Bitcoin</p>
-                    </div>
-                    <p>88,888.88</p>
-                </div>
-                <div class="child-currency">
-                    <div class="currency-bitcoin">
-                        <img src="/Testing//assets/Path 11964.png" alt="" width="16" height="16">
-                        <p>Bitcoin</p>
-                    </div>
-                    <p>88,888.88</p>
-                </div>
-
-            </div>
-            <div class="menu">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #216EFB;">ConvertNOW</a>
-                    </li>
-                    <li class="nav-item">
+                            <div class="vl"></div>
+                            <div class="child-currency">
+                                <div class="currency-ethereum">
+                                    <img src="assets/Path11964.png" alt="" width="16" height="16">
+                                    <p><b>Ethereum</b></p>
+                                </div>
+                                <div class="currency-number-big">
+                                    <p style="margin: -5px;">88,888</p>
+                                    <p style="font-size: 10px; display: inline;">.88</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="nav-link" href="#">ConvertNOW</a>
                         <a class="nav-link" href="#">Options</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Perpetual</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Zip</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">Funds</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link-settlement-price" href="#">Settlement Price</a>
-                    </li>
-                    <li class="nav-item nav-icon">
-                        <a class="nav-link" href="#"><img src="assets/Group 14447.png" height="10.82px" width="12.34px" style="margin-right: 10px;"><img src="assets/Path 14126.png" height="8.08px" width="7px"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="assets/Path 14128.png" height="10.82px" width="12.34px" style="margin-right: 10px;"><img src="assets/Path 14126.png" height="8.08px" width="7px"></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                        <button type="button" class="btn btn-outline-primary btn-sm"><b>Settlement Price</b></button>
 
-        <div class="bottom-content">
-            <!-- LEFT LINK -->
-            <div class="menu-left-link">
-                <ul>
-                    <li>
-                        <a href="">Account</a>
-                    </li>
-                    <li>
-                        <a href=""> Activities</a>
-                    </li>
-                    <li>
-                        <a href=""> API Management</a>
-                    </li>
-                    <li>
-                        <a href=""> Address Management </a>
-                    </li>
-                    <li>
-                        <a href=""> Identity Verification </a>
-                        <img src="assets/Group 16696.png" alt="">
-                    </li>
-                    <li>
-                        <a href="">  Preferences </a>
-                    </li>
-                    <li>
-                        <a href=""> Security </a>
-                        <img src="assets/Group 16695.png" alt="">
-                    </li>
-                </ul>
-            </div>
-
-            <div class="content-center">
-                <div class="welcome-left">
-                    <h1 style="color: #216EFB;">Welcome</h1>
-                </div>
-                <div class="account-status">
-                    <div class="account-status-right">
-                        <p>E-mail</p>
-                        <p><b>Test@sparrowexchange.com</b></p>
-                        <br>
-                        <p>User ID</p>
-                        <p><b>00ddd4c4-b0b3-4df3-a694-0b8e1007be2e</b></p>
-                        <br>
-                        <p>Account Status </p>
-                        <p><b>Verified</b></p>
-                    </div>
-                    <div class="account-status-left">
-                        <p>Country</p>
-                        <p><b>IDN</b></p>
-                        <br>
-                        <p>Joined Since</p>
-                        <P><b>12Feb21</b></P>
-                        <br>
-                        <p>2FA Status</p>
-                        <p><b>Disabled</b></p>
-                    </div>
-                </div>
-                <div class="login-status">
-                    <div>
-                        <h1>Last Login</h1>
-                        <span><b>30Jan21, 16:28, Chrome Mac OS X</b></span>
-
-                    </div>
-
-                    <div>
-                        <h1>My Product</h1>
-                    </div>
-
-                </div>
-                <div>
-                    <p>hore</p>
-                    <br>
-                    <p>hore</p>
-                    <br>
-                    <p>hore</p>
+                        <a class="nav-link" href="#"><img src="assets/Group 14447.png" height="10.82px" width="12.34px" style="margin-right: 10px;"><img src="assets/Path 14126.png" height="8.08px" width="7px">
+                        </a>
+                        <div class="vl2"></div>
+                        <a class="nav-link" href="#"><img src="assets/Path 14128.png" height="10.82px" width="12.34px" style="margin-right: 10px;"><img src="assets/Path 14126.png" height="8.08px" width="7px">
+                        </a>
+                </nav>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
+    <!-- LEFT LINK -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+                <div class="menu-left-link">
+                    <ul>
+                        <li style=" background-color: #216EFB; color: #ffff;">
+                            <a href="" style="color:#ffff">Account</a>
+                        </li>
+                        <li>
+                            <a href=""> Activities</a>
+                        </li>
+                        <li>
+                            <a href=""> API Management</a>
+                        </li>
+                        <li>
+                            <a href=""> Address Management </a>
+                        </li>
+                        <li>
+                            <a href=""> Identity Verification </a>
+                            <img src="assets/Group 16696.png" alt="">
+                        </li>
+                        <li>
+                            <a href=""> Preferences </a>
+                        </li>
+                        <li>
+                            <a href=""> Security </a>
+                            <img src="assets/Group 16695.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Center -->
+            <div class="col-3">
+                <h1 style="color:#216EFB; padding: 43px  10px 77px;
+                height: 31.5%;
+                width: 80%;
+                overflow: hidden;">Welcome.</h1>
+
+                <div class="status-login">
+
+                    <div class="line1">
+                        <h1>Last Login</h1>
+                        <p>See All Activities</p>
+                    </div>
+                    <div class="line2 margin-big">
+                        <p><b>30 Jan 21, 16:28, Chrome Mac OS X</b></p>
+                    </div>
+                    <div class="line1">
+                        <h1>My Products</h1>
+                    </div>
+                    <div class="status-login-left">
+                        <div class="line2 product">
+                            <div class="product-left">
+                                <p><b>ConvertNOW</b></p>
+                                <p class="exp">Required.</p>
+                            </div>
+                            <div class="product-right">
+                                <p>Enabled</p>
+                                <img src="assets/Group 16720.png" width="35px" height="20px">
+                            </div>
+                        </div>
+                        <div class="line2 product bordered">
+                            <div class="product-left">
+                                <p><b>Options</b></p>
+                            </div>
+                            <div class="product-right">
+                                <p>Enabled</p>
+                                <img src="assets/Group 16722.png" width="35px" height="20px">
+                            </div>
+                        </div>
+                        <div class=" line2 product ">
+                            <div class="product-left ">
+                                <p><b>Structured Products</b></p>
+                                <p class="exp ">To change status please contact your Relationship Manager.</p>
+                            </div>
+                            <div class="product-right ">
+                                <p>Enabled</p>
+                                <img src="assets/Group 16720.png " width="35px " height="20px">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="status-login-right ">
+
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="col-6 offset-1 ">
+                <div class="account-status ">
+                    <div class="account-status-left ">
+                        <p style="margin-top:-3px ">E-mail</p>
+                        <p style="margin-top:-15px "><b>Test@sparrowexchange.com</b></p>
+                        <p style="margin-top:-3px ">User ID</p>
+                        <p style="margin-top:-15px "><b>00ddd4c4-b0b3-4df3-a694-0b8e1007be2e</b></p>
+                        <p style="margin-top:-3px ">Account Status</p>
+                        <p style="margin-top:-15px "><img src="assets/Ellipse 303.png " height="12 " width="12 "></img><b> Verified</b></p>
+                    </div>
+                    <div class="account-status-right ">
+                        <p style="margin-top:-3px ">Country</p>
+                        <p style="margin-top:-15px "><b>IDN</b></p>
+                        <p style="margin-top:-3px ">Joined Since</p>
+                        <p style="margin-top:-15px "><b>12 Feb 21</b></p>
+                        <p style="margin-top:-3px ">2FA Status</p>
+                        <p style="margin-top:-15px "><img src="assets/Ellipse 401.png " height="12 " width="12 "></img><b> Disabled &nbsp; | &nbsp; <u>Enable</u></b></p>
+                    </div>
+                </div>
+
+                <div class="table-right">
+                    <H1 style="font-size: 25px;">Personal Account</H1>
+                    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                        <table class="table table-bordered  mb-0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Assets&nbsp;<img src="assets/Path 14126.png" alt=""></th>
+                                    <th scope="col" style="text-align: right;">Total&nbsp;<img src="assets/Path 12218.png" alt=""></th>
+                                    <th scope="col" style="text-align: right;">Available&nbsp;<img src="assets/Path 12218.png" alt=""></th>
+                                    <th scope="col" style="text-align: right;">Locked&nbsp;<img src="assets/Path 12218.png" alt=""></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 13865.png" height="16" width="16">&nbsp;SP$</th>
+                                    <td style="text-align:right">888,888,888.88</td>
+                                    <td style="text-align:right">888,888,888.88</td>
+                                    <td style="text-align:right">888,888,888.88</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="assets/Group 14957.png" height="16" width="16">&nbsp;BTC</th>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                    <td style="text-align:right">888,888,888.88<br>~888,888,888.88&nbsp;<b>USD</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+    -->
 </body>
 
 </html>
